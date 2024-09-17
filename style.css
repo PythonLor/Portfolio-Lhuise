@@ -1,0 +1,230 @@
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.container-fluid a {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nav-content li {
+    margin: 10px;
+    padding: 5px;
+    display: inline-block;
+    text-decoration: none !important;
+    font-size: 14px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nav-content a {
+    color: inherit;
+}
+
+.btn-nav {
+    border: none;
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 50px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.text-left p {
+    font-weight: 300px;
+    margin-left: 108px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.body h1 {
+    margin-top: 30px;
+    font-size: 100px;
+}
+
+.col img {
+    width: 800px;
+}
+
+.text-right p {
+    font-size: 20px;
+    margin-left: 30px;
+    padding: 10px;
+    text-align: justify;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.text-right a {
+    color: black;
+    font-size: 20px;
+    margin-left: 30px;
+    padding: 10px;
+    text-align: justify;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.connect-container p {
+    margin-bottom: 0% !important;
+    font-size: 15px;
+    display: block;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  
+}
+
+.connect-container i {
+    font-size: 25px;
+    width: 20px;
+    margin-left: 35px;
+}
+
+.container-2 {
+    margin-top: 50px
+    ;
+}
+.text-right-2 h1 {
+    font-size: 60px;
+    padding-right: 100px;
+    padding-top: 0% !important;
+    padding-left: 0%;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 30px;
+}
+
+.container-service {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+    gap: 20px; /* Space between columns and rows */
+    max-width: 1200px;
+    margin: auto;
+}
+
+.service {
+    margin-top: 10px;
+    margin-right: 90px;
+}
+.service h6 {
+    text-align: center;
+    font-size: 20px;
+    color: #000000;
+}
+
+.service p {
+    text-align: justify;
+    font-size: 15px;
+    color: #000000;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr; /* One column on smaller screens */
+    }
+}
+
+.body-container p {
+    font-weight: 300px;
+    margin-left: 108px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.content-body-3 img {
+    margin: 10px;
+}
+
+.page3 {
+    margin-top: 50px;
+    background-color: #eaf5f7;
+}
+
+.img-text h1 {
+    margin-left: 30px;
+}
+
+.img-text p {
+    margin-left: 20px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.text-right-4 h1 {
+    font-size: 60px;
+    padding-right: 100px;
+    padding-top: 0% !important;
+    padding-left: 0%;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 30px;
+}
+
+.text-right-4 p {
+    font-size: 20px;
+    padding-right: 100px;
+    padding-top: 0% !important;
+    padding-left: 0%;
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    margin-top: 30px;
+}
+
+.btn-sched {
+    border: none;
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 50px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.text-left-4 {
+    padding: 30px;
+    font-weight: 300px;
+    margin-left: 60px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.text-left-4 p {
+    padding-right: 10px; 
+    font-weight: 300px;
+    font-size: 20px;
+}
+
+.text-right-footer i{
+    font-size: 35px;
+    margin: 10px;
+}
+
+.text-right-footer {
+    margin-left: 390px;
+    margin-top: 150px;
+}
+
+.left-inside p {
+    text-align: left;
+    display: flex;
+}
+
+.footer {
+    background-color: aliceblue;
+}
+
